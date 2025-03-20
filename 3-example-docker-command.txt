@@ -1,0 +1,4 @@
+-e VIRTUAL_HOST=logistics.zaivod.com -e LETSENCRYPT_HOST=logistics.zaivod.com --network net
+
+# optional
+-e VIRTUAL_PORT=80 
