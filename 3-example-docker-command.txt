@@ -1,4 +1,0 @@
--e VIRTUAL_HOST=webui.gchalakov.com -e LETSENCRYPT_HOST=webui.gchalakov.com --network net
-
-# optional
--e VIRTUAL_PORT=80 
