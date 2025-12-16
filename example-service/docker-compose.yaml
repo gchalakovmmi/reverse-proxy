@@ -4,3 +4,9 @@ services:
     env_file: .env
     volumes:
     - ./website:/usr/local/apache2/htdocs
+    networks:
+      - reverse-proxy_net
+
+networks:
+  reverse-proxy_net: 
+    external: true
